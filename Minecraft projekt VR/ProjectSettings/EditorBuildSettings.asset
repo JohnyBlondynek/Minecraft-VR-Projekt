@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu VR.unity
+    guid: d4d92212267468140ab7b3a9e4c0a705
+  - enabled: 1
+    path: Assets/Scenes/Zombie.unity
+    guid: b041c2ec69a67c445baa253fba954a64
   m_configObjects: {}
