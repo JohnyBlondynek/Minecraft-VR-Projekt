@@ -6,6 +6,7 @@ using TMPro;
 
 public class Player : MonoBehaviour
 {
+	public int punkty;
 	public CharacterController characterControler;
 	public float predkoscPoruszania = 9.0f;
 	public float wysokoscSkoku = 7.0f;
