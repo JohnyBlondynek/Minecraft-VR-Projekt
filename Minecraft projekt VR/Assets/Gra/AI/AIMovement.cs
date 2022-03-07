@@ -33,7 +33,7 @@ public class AIMovement : MonoBehaviour
     {
         if (zdrowie <= 0)
         {
-            FindObjectOfType<Player>().punkty++;
+            FindObjectOfType<Staty>().punkty++;
             Destroy(gameObject);
             FindObjectOfType<spawnZombie>().ograniczenia--;
         }
